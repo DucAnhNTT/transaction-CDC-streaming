@@ -4,7 +4,7 @@
 This project demonstrates the implementation of a Change Data Capture (CDC) system using Debezium, Kafka, Postgres, and Docker. The system generates simulated financial transactions using a Python script and inserts them into a PostgreSQL database. It is particularly useful for setting up a test environment for CDC with Debezium. The script uses the faker library to create realistic yet fictitious transaction data.
 
 ## System Architecture
-![System Architecture](architecture.png)
+![System Architecture](image/architecture.png)
 
 ## Prerequisites
 Before running this script, make sure you have the following installed:
