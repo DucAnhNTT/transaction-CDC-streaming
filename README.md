@@ -55,7 +55,9 @@ You should see all services listed as 'running'.
 
 ### Accessing the Services:
 Kafka Control Center is accessible at http://localhost:9021.
+
 Debezium UI is accessible at http://localhost:8080.
+
 Postgres is accessible on the default port 5432.
 
 ### Shutting Down
@@ -76,5 +78,7 @@ Kafka Documentation
 PostgreSQL Documentation
 Docker Documentation
 Python Faker Documentation
-## Contact
-If you have any questions or need further assistance, feel free to contact me
+
+## 📧Contact
+Please feel free to contact me if you have any questions.
+<a href="https://ducanh0285@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/000000/gmail--v2.png" alt="ducanh0285@gmail.com" height="30" width="40" /></a><a href="https://www.facebook.com/ducanh.pp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="1" height="30" width="40" /></a><a href="https://twitter.com/Ducann02Nguyen" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="1" height="30" width="40" /></a><a href="https://www.linkedin.com/in/ducanhnt/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="1" height="30" width="40" /></a>
