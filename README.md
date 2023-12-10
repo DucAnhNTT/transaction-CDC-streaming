@@ -18,8 +18,10 @@ Before running this script, make sure you have the following installed:
 ### Install Required Python Libraries
 You can install the required libraries using pip:
 
-```bash
-pip install psycopg2-binary faker
+bash
+```
+    pip install psycopg2-binary faker
+```
 Docker Services
 The Docker Compose file included in this repository sets up the following services:
 
