@@ -18,23 +18,22 @@ Before running this script, make sure you have the following installed:
 ### Install Required Python Libraries
 You can install the required libraries using pip:
 
-bash
 ```
-pip install psycopg2-binary faker
+pip install -r requirements.txt
 ```
 ### Docker Services
 The Docker Compose file included in this repository sets up the following services:
 
-### Zookeeper: 
+#### Zookeeper: 
 A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
-### Kafka Broker: 
+#### Kafka Broker: 
 A distributed streaming platform used for handling real-time data feeds.
 Confluent Control Center: A web-based tool for managing and monitoring Apache Kafka.
-### Debezium: 
+#### Debezium: 
 An open-source distributed platform for change data capture.
-### Debezium UI: 
+#### Debezium UI: 
 A user interface for managing and monitoring Debezium connectors.
-### Postgres: 
+#### Postgres: 
 An open-source relational database.
 ## Getting Started
 Clone the Repository: If this Docker Compose file is not already on your local system, clone the repository to your machine.
@@ -48,7 +47,7 @@ docker-compose up -d
 This command will download the necessary Docker images, create containers, and start the services in detached mode.
 
 Verify the Services: Check if all the services are up and running:
-bash
+
 ```
 docker-compose ps
 ```
@@ -62,7 +61,7 @@ Postgres is accessible on the default port 5432.
 ### Shutting Down
 To stop and remove the containers, networks, and volumes, run:
 
-bash
+
 ```
 docker-compose down
 ```
