@@ -54,11 +54,9 @@ docker-compose ps
 You should see all services listed as 'running'.
 
 ### Accessing the Services:
-Kafka Control Center is accessible at http://localhost:9021.
-
-Debezium UI is accessible at http://localhost:8080.
-
-Postgres is accessible on the default port 5432.
+   - Kafka Control Center is accessible at `http://localhost:9021`.
+   - Debezium UI is accessible at `http://localhost:8080`.
+   - Postgres is accessible on the default port `5432`.
 
 ### Shutting Down
 To stop and remove the containers, networks, and volumes, run:
@@ -73,11 +71,9 @@ You can modify the Docker Compose file to suit your needs. For example, you migh
 ⚠️ Note This setup is intended for development and testing purposes. For production environments, consider additional factors like security, scalability, and data persistence.
 
 ## References
-Debezium Documentation
-Kafka Documentation
-PostgreSQL Documentation
-Docker Documentation
-Python Faker Documentation
+[Debezium Documentation](https://debezium.io/documentation/reference/stable/index.html)
+[Kafka Documentation](https://kafka.apache.org/documentation/)
+[Python Faker](https://faker.readthedocs.io/en/master/)
 
 ## 📧Contact
 Please feel free to contact me if you have any questions.
