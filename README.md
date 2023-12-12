@@ -71,9 +71,10 @@ You can modify the Docker Compose file to suit your needs. For example, you migh
 ⚠️ Note This setup is intended for development and testing purposes. For production environments, consider additional factors like security, scalability, and data persistence.
 
 ## References
-[Debezium Documentation](https://debezium.io/documentation/reference/stable/index.html)
-[Kafka Documentation](https://kafka.apache.org/documentation/)
-[Python Faker](https://faker.readthedocs.io/en/master/)
+- [Debezium Documentation](https://debezium.io/documentation/reference/stable/index.html)
+- [Kafka Documentation](https://kafka.apache.org/documentation/)
+- [Python Faker](https://faker.readthedocs.io/en/master/)
+- [Inspire by this video](https://www.youtube.com/watch?v=deepQRXnniM&t=384s)
 
 ## 📧Contact
 Please feel free to contact me if you have any questions.
