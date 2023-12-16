@@ -15,7 +15,9 @@ $$ LANGUAGE plpgsql;
 
 
 -- Trigger for UPDATE
-
+CREATE TRIGGER trigger_record_user_update
+BEFORE UPDATE ON transactions
+FOR EACH ROW EXECUTE FUNCTION record_change_user();
 
 -- capture before records on debezium
 ALTER TABLE transactions REPLICA IDENTITY FULL;
@@ -46,3 +48,8 @@ BEGIN
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
+
+-- Trigger for UPDATE
+CREATE TRIGGER trigger_record_changed_column
+BEFORE UPDATE ON transactions
+FOR EACH ROW EXECUTE FUNCTION record_changed_columns();
