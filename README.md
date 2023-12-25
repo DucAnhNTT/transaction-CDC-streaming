@@ -12,8 +12,8 @@
     * [Postgres](#postgres) 🐘
 * [Getting Started](#getting-started) 🚦
 * [Customization](#customization) 🛠️
-* 📚 [References](#references) 📖
-* 📧 [Contact](#contact) 📬
+* [References](#references) 📖
+* [Contact](#contact) 📬
 
 
 ## Overview
