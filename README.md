@@ -1,5 +1,21 @@
 # CDC with Debezium, Kafka, Postgres, Docker
 
+* [Overview](#overview) 🌐
+* [System Architecture](#system-architecture) 🏛️
+* [Prerequisites](#prerequisites) 🛠️
+* [Installation](#installation) 🚀
+* [Docker Services](#docker-services) 🐳
+    * [Zookeeper](#zookeeper) 🐘
+    * [Kafka Broker](#kafka-broker) 🚀
+    * [Debezium](#debezium) 🔄
+    * [Debezium UI](#debezium-ui) 💻
+    * [Postgres](#postgres) 🐘
+* [Getting Started](#getting-started) 🚦
+* [Customization](#customization) 🛠️
+* 📚 [References](#references) 📖
+* 📧 [Contact](#contact) 📬
+
+
 ## Overview
 This project demonstrates the implementation of a Change Data Capture (CDC) system using Debezium, Kafka, Postgres, and Docker. The system generates simulated financial transactions using a Python script and inserts them into a PostgreSQL database. It is particularly useful for setting up a test environment for CDC with Debezium. The script uses the faker library to create realistic yet fictitious transaction data.
 
